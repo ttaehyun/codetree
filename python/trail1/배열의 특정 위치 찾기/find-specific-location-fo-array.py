@@ -6,5 +6,5 @@ for i in range(1, n, 2):
 # print(sum_val)
 filter1 = arr[2::3]
 
-print(sum_val, sum(filter1) / len(filter1))
+print(f"{sum_val} {sum(filter1) / len(filter1)}")
 # print(filter1)
